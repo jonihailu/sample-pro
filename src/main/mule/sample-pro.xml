@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<flow name="sample-pro-Flow" doc:id="dd6f79f8-662d-4c57-ac0b-f95cef2150f9" >
-		<http:listener doc:name="Listener" doc:id="3da9167f-c876-49ba-b406-3dee7d46d6f1" config-ref="HTTP_Listener_config" path="/sample"/>
+		<http:listener doc:name="Listener" doc:id="3da9167f-c876-49ba-b406-3dee7d46d6f1" config-ref="HTTP_Listener_config" path="/samplepro"/>
 		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="8c0cbcde-0e9a-4250-a0f1-e6b1e010e5f0" />
 		<ee:transform doc:name="Transform Message" doc:id="fa2b0892-c637-483a-893c-2f315cb909b5" >
 			<ee:message >
