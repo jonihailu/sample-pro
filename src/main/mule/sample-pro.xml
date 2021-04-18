@@ -17,7 +17,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
-	"Message": "Git & Jenkins project deployment successfully done "
+	"Message": "project deployment successfully done "
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
