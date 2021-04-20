@@ -40,7 +40,7 @@
 				     <workerType>Micro</workerType>
 				     <ObjectStoreV2>True</ObjectStoreV2>
 				  </cloudHubDeployment>
-			  </configuration>
+			 </configuration>
 			</plugin>
 		</plugins>
 	</build>
